@@ -1318,19 +1318,18 @@ transition:.4s;
 }
 
 .gallery-item img{
+    
 
 width:100%;
-
-height:100%;
-
-object-fit:cover;
-
-object-position:center;
+height:auto;
 
 display:block;
 
 border-radius:20px;
 
+
+object-fit:cover;
+object-position:center;
 transition:.5s;
 
 }
