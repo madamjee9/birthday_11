@@ -3537,6 +3537,20 @@ padding:12px 18px;
    MOBILE LIGHTBOX FIX
 ========================================== */
 
+/* The reveal script initially sets every section to opacity: 0. Keep the
+   gallery visible on phones even if that observer does not run again. */
+@media (max-width:768px){
+
+#gallery{
+
+opacity:1 !important;
+
+transform:translateY(0) !important;
+
+}
+
+}
+
 
 
 
