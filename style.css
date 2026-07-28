@@ -1317,17 +1317,12 @@ transition:.4s;
 
 }
 
-.gallery-item img{
-    
+.gallery-item img{  
 
 width:100%;
 height:auto;
-
 display:block;
-
 border-radius:20px;
-
-
 object-fit:contain;
 object-position:center;
 transition:.5s;
@@ -1380,10 +1375,6 @@ opacity:1;
                     LIGHTBOX
 ==========================================================*/
 
-/* ===========================
-        LIGHTBOX
-=========================== */
-
 /* ==========================
    LIGHTBOX
 ========================== */
@@ -1408,7 +1399,7 @@ overflow:hidden;
 
 #lightbox.show{
 
-display:flex;
+ display:flex !important;
 
 }
 
