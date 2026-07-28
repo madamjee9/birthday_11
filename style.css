@@ -1307,7 +1307,7 @@ position:relative;
 
 border-radius:25px;
 
-overflow:hidden;
+overflow:visible;
 
 cursor:pointer;
 
@@ -1328,7 +1328,7 @@ display:block;
 border-radius:20px;
 
 
-object-fit:cover;
+object-fit:contain;
 object-position:center;
 transition:.5s;
 
@@ -1733,7 +1733,9 @@ grid-template-columns:1fr;
 
 .gallery-item img{
 
-height:300px;
+    width:100%;
+    height:auto;
+    display:block;
 
 }
 
